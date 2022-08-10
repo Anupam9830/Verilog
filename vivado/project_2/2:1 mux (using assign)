@@ -1,0 +1,8 @@
+module t(
+    input a,b,s,
+    output out
+    );
+wire sbar;
+assign sbar = ~s;
+assign out = (a & sbar)|(b & s);
+endmodule
