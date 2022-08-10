@@ -1,0 +1,14 @@
+module e(
+    input i0,i1,i2,i3,
+    input s0,s1,
+    output out
+    );
+wire s0bar, s1bar;
+not not1(s0bar,s0);
+not not2(s1bar,s1);
+and and1(net1,s0bar,s1bar,i0);
+and and2(net2,s0bar,s1,i1);
+and and3(net3,s0,s1bar,i2);
+and and4(net4,s0,s1,i3);
+or or1(out,net1,net2,net3,net4);
+endmodule
