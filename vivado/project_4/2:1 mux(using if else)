@@ -1,0 +1,10 @@
+module p(
+    input a,b,s,
+    output reg out
+    );
+always@(a, b, s)
+    begin
+        if (s) out=b;
+        else out=a;
+    end
+endmodule
