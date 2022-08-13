@@ -2,7 +2,7 @@ module and2_df_tb(
     );
 reg A,B;
 wire OUT;
-and2_df duv (.a(A), .b(B), .out(out));
+and2_df duv (.a(A), .b(B), .out(OUT));
 initial
     begin
         $monitor ("simtime=%g, A=%b, B=%b, OUT=%b", $time, A, B, OUT);
