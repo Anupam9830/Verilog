@@ -14,6 +14,6 @@ project_7 - 4:1 mux (using conditional operator)
 
 project_8 - 4:1 mux (using if else)
 
-project_9
+project_9 - 4:1 mux (using case statement)
 
 project_10
