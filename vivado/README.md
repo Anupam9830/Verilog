@@ -6,7 +6,7 @@ project_3 - 2:1 mux (using conditional operator)
 
 project_4 - 2:1 mux (using if else)
 
-project_5
+project_5 - 2:1 mux (using case statement)
 
 project_6
 
