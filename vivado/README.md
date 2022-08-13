@@ -1,4 +1,4 @@
-project_1
+project_1 - 1 bit adder
 
 project_2
 
