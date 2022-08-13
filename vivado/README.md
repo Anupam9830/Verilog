@@ -16,4 +16,4 @@ project_8 - 4:1 mux (using if else)
 
 project_9 - 4:1 mux (using case statement)
 
-project_10
+project_10 - 4:1 mux (using logic gates)
