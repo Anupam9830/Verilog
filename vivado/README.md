@@ -4,7 +4,7 @@ project_2 - 2:1 mux (using assign)
 
 project_3 - 2:1 mux (using conditional operator)
 
-project_4
+project_4 - 2:1 mux (using if else)
 
 project_5
 
