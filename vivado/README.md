@@ -21,3 +21,5 @@ project_10 - 4:1 mux (using logic gates)
 lab_ex_01 - implementation of and, or, not, nand, nor, xor gate
 
 project_11 - 4 bit ripple carry adder (by port name)
+
+project_12 - 4 bit ripple carry adder (by port order)
