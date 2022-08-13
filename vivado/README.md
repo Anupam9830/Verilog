@@ -24,4 +24,6 @@ project_11 - 4 bit ripple carry adder (by port name)
 
 project_12 - 4 bit ripple carry adder (by port order)
 
-project_13 - test bench
+project_13 - test bench (and gate)
+
+project_14 - test bench (ripple carry adder)
