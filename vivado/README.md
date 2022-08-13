@@ -10,7 +10,7 @@ project_5 - 2:1 mux (using case statement)
 
 project_6 - 2:1 mux (using logic primitive)
 
-project_7
+project_7 - 4:1 mux (using conditional operator)
 
 project_8
 
