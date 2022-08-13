@@ -1,8 +1,8 @@
 project_1 - 1 bit adder
 
-project_2 - 2:1 mux(using assign)
+project_2 - 2:1 mux (using assign)
 
-project_3
+project_3 - 2:1 mux (using conditional operator)
 
 project_4
 
