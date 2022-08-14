@@ -1,0 +1,36 @@
+module fsm(
+    input pause,restart,clk,rst,
+    output reg odd,even,terminal
+    );
+reg [1:0] state;
+
+parameter [1:0] first = 2'b11;
+parameter [1:0] second = 2'b01;
+parameter [1:0] third = 2'b10;
+
+//Sequential
+always@(negedge clk or posedge rst)
+begin
+    if (rst) state<=first;
+    else
+    begin
+        case (state)
+            first:  if (restart|pause) state<=first;
+                    else state<=second;    
+            second: if (restart) state<=first;
+                    else if (!restart & pause) state<=second;
+                    else state<=third;
+            third:  if (!restart & pause) state<=third;
+                    else state<=first;
+        endcase
+    end
+end
+
+//output logic descirbed using procedural assignment
+always@(state or restart or pause)
+begin
+    odd = (state == first)|(state == third);
+    even = (state == second);
+    terminal = (state == third)|(restart & !pause);
+end
+endmodule
