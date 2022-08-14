@@ -1,0 +1,29 @@
+module sc(
+    input w,reset,clock,
+    output z
+    );
+reg [2:1] state, next_state;
+parameter [2:1] A=2'b00, B=2'b01, C=2'b10;
+
+//Define next_state combinational circuit
+always@(w,state)
+    begin
+        case(state)
+        A: if (w) next_state = B;
+           else next_state = A;
+        B: if (w) next_state = C;
+           else next_state = A;
+        C: if (w) next_state = C;
+           else next_state = A;
+        default: next_state = 2'bxx;
+        endcase
+    end
+
+//Define the sequential block
+always@(negedge reset, posedge clock)
+    if (reset == 0) state<=A;
+    else state<=next_state;
+    
+//Define output
+assign z = (state == C);
+endmodule
