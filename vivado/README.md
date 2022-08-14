@@ -29,3 +29,5 @@ project_13 - test bench (and gate)
 project_14 - test bench (ripple carry adder)
 
 lab_ex_02 - half and full adder implementation
+
+project_15 - fsm design (01)
