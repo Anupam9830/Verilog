@@ -35,3 +35,5 @@ project_15 - fsm design (01)
 project_16 - fsm design (02)
 
 project_17 - or_nand synthesis
+
+project_18 - or_nand_2 synthesis
