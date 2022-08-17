@@ -33,3 +33,5 @@ lab_ex_02 - half and full adder implementation
 project_15 - fsm design (01)
 
 project_16 - fsm design (02)
+
+project_17 - or_nand synthesis
