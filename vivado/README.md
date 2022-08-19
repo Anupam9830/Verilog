@@ -57,3 +57,5 @@ project_26 - test_synthesis if-else (unwanted latches)
 project_27 - mux_4pri synthesis (priority logic)
 
 project_28 - D-reg4a synthesis (sequential logic)
+
+project_29 - mux_reg synthesis (combinational logic)
