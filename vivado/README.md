@@ -41,3 +41,5 @@ project_18 - or_nand_2 synthesis (using assign)
 project_19 - or_nand_3 synthesis (using conditional operator)
 
 project_20 - or_nand_4 synthesis (using function)
+
+project_21 - or_nand_5 synthesis (using task)
