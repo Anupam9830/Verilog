@@ -53,3 +53,5 @@ project_24 - mux_4bits synthesis (using if-else)
 project_25 - test_synthesis case statement (unwanted latches)
 
 project_26 - test_synthesis if-else (unwanted latches)
+
+project_27 - mux_4pri synthesis (priority logic)
