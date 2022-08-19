@@ -55,3 +55,5 @@ project_25 - test_synthesis case statement (unwanted latches)
 project_26 - test_synthesis if-else (unwanted latches)
 
 project_27 - mux_4pri synthesis (priority logic)
+
+project_28 - D-reg4a synthesis (sequential logic)
