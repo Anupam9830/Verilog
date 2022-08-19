@@ -1,0 +1,12 @@
+module mux_4bits(
+    input [3:0] a,b,c,d,
+    input [1:0] sel,
+    output reg [3:0] y
+    );
+always@(a or b or c or d or sel)
+    if (sel == 0) y=a;
+    else if (sel == 1) y=b;
+    else if (sel == 2) y=c;
+    else if (sel == 3) y=d;
+    else y=4'bx;
+endmodule
