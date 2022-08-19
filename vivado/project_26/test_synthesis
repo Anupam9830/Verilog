@@ -1,0 +1,10 @@
+module test(
+    input sel_a,sel_b,data_a,data_b,
+    output reg y_out
+    );
+always@(sel_a or sel_b or data_a or data_b)
+    if ({sel_a,sel_b}==2'b10)
+        y_out = data_a;
+    else if ({sel_a,sel_b}==2'b01)
+        y_out = data_b;
+endmodule
