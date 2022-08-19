@@ -45,3 +45,7 @@ project_20 - or_nand_4 synthesis (using function)
 project_21 - or_nand_5 synthesis (using task)
 
 project_22 - mux_4bits synthesis (using conditional operator)
+
+project_23 - mux_4bits synthesis (using case statement)
+
+project_24 - mux_4bits synthesis (using if-else)
