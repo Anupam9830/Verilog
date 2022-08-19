@@ -1,0 +1,9 @@
+module d_reg4a(
+    input [3:0]data_in,
+    input clock,reset,
+    output reg [3:0] data_out
+    );
+always@(posedge reset or posedge clock)
+    if (reset==1'b1) data_out<=4'b0;
+    else data_out<=data_in;
+endmodule
