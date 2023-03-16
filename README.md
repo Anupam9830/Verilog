@@ -1,2 +1,2 @@
-# Verilog-NPTEL
+# Verilog
 Verilog Programming that I learned.
